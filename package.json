@@ -1,0 +1,28 @@
+{
+  "name": "tailored-notification-tool",
+  "version": "1.0.0",
+  "description": "Tailored Notification Tool backend server",
+  "main": "ses_sendemail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandikachirala/tailored-notification-tool.git"
+  },
+  "type": "module",
+  "author": "Nandika Chirala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandikachirala/tailored-notification-tool/issues"
+  },
+  "homepage": "https://github.com/nandikachirala/tailored-notification-tool#readme",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.145.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
